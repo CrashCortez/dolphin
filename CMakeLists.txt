@@ -433,6 +433,7 @@ if(NOT ANDROID)
 	if(NOT OPENGL_GLU_FOUND)
 		message(FATAL_ERROR "GLU is required but not found")
 	endif()
+endif()
 
 	if(OPENMP)
 		include(FindOpenMP OPTIONAL)
